@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test 02 NashTech" verbose="1">
+	<test name="Verify upload image">
+		<classes>
+			<class name="test.Test2">
+				<methods>
+					<include name="testUploadFile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
